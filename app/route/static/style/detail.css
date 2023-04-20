@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-detail{
+    margin-top: 10%;
+    margin-left: 30%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+}
+
+
+.card-detail li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.card-detail #registerbutton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(36, 35,35);
+    color: #fff;
+    width: 100%;
+    padding: 6px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor : pointer;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+}
+

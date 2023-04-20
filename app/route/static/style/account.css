@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-account{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+    margin: 10px;
+}
+
+.card-account-input{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-account-input label{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.card-account-input label span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.card-account-input .input{
+    outline: none;
+    padding: 6px 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-account-input #registerbutton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(36, 35,35);
+    color: #fff;
+    width: 100%;
+    padding: 6px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor : pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card-account-factures{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+    margin: 10px;
+}
+
+.card-account-factures span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.card-account-articles{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+    margin: 10px;
+}
+
+.card-account-articles span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.card-account-articles button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(36, 35,35);
+    color: #fff;
+    width: 100%;
+    padding: 6px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor : pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
